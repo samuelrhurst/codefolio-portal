@@ -1,5 +1,5 @@
 [project]
-name = "20251118-Replacing-Pandas-with-DuckDB-and-Ibis-Foo"
+name = "20251118_ibis_duck_db_vs_pandas_syntax_comparison"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [

@@ -1,18 +1,16 @@
 project:
   type: website
-  pre-render: ./register-all-kernels.sh
+  # pre-render: ./register-all-kernels.sh # This option is if you are trying to get quarto to re-run the notebooks (which will require their kernels to be registered)
   output-dir: docs
 
 execute:
-  cache: false
-  freeze: false  # auto = re-render only when source changes
-  keep-md: True
   engine: jupyter
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  description: "Sam Hurst's Codefolio Portal"
+  site-url: https://samuelrhurst.github.io/codefolio-portal/
   title: "Sam Hurst's Codefolio Portal"
+  open-graph: true
   navbar:
     right:
       - about.qmd
@@ -26,12 +24,3 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-# project:
-#   render:
-#     - "*.qmd"
-#     - "!ignored.qmd"
-#     - "!ignored-dir/"
-# execute:
-#   cache: true
-#   freeze: auto  # re-render only when source changes

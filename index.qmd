@@ -1,5 +1,8 @@
 ---
 title: "Sam Hurst's Codefolio Portal"
+execute:
+  keep-ipynb: false
+  keep-md: false
 listing:
   contents: posts
   feed: true

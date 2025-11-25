@@ -1,6 +1,3 @@
 # codefolio-portal
 
-Post environment initialisation:
-uv init --bare --no-workspace --name  20251118_Benchmarking
-
-/home/vscode/.local/bin
+This repo contains a collection of 'computational documents' (aka Jupyter Notebooks), that have been rendered into a Webportal using [Quarto](https://quarto.org/).

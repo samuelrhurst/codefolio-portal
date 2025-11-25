@@ -1,11 +1,9 @@
 ---
-title: "My Notebook"
+title: "Syntax Comparison: Ibis+DuckDB vs Pandas"
 author: "Sam Hurst"
+date: "2025-11-18"
 categories: [Ibis, DuckDB, Pandas]
 jupyter: 20251118_ibis_duck_db_vs_pandas_syntax_comparison
-execute:
-  enabled: true
-  engine: knitr
 ---
 
 # My Level 1 Heading

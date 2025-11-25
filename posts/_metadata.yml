@@ -1,8 +1,10 @@
 # options specified here will apply to all posts in this folder
 
-# freeze computational output
-# (see https://quarto.org/docs/projects/code-execution.html#freeze)
-freeze: true
+execute:
+  freeze: true  # true = never re-render, auto = re-render only when source changes, false = re-render everything
+  cache: true # true = cache computational results using Jupyter cache (probably change this to false if you are changing the freeze setting to force the recomputation of a notebook)
+  keep-md: true
+  engine: jupyter
 
 # Enable banner style title blocks
 title-block-banner: true
