@@ -1,0 +1,37 @@
+project:
+  type: website
+  pre-render: ./register-all-kernels.sh
+  output-dir: docs
+
+execute:
+  cache: false
+  freeze: false  # auto = re-render only when source changes
+  keep-md: True
+  engine: jupyter
+
+website:
+  description: "A blog built with Quarto"
+  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  title: "Sam Hurst's Codefolio Portal"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/samuelrhurst
+      - icon: linkedin
+        href: https://www.linkedin.com/in/samuelrhurst/
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+# project:
+#   render:
+#     - "*.qmd"
+#     - "!ignored.qmd"
+#     - "!ignored-dir/"
+# execute:
+#   cache: true
+#   freeze: auto  # re-render only when source changes

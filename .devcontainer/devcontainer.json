@@ -1,0 +1,14 @@
+{
+	"name": "Codefolio Portal Dev Container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto",
+				"ms-toolsai.jupyter"
+			]
+		}
+	}
+}

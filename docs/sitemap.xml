@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
+    <lastmod>2025-11-18T07:40:40.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/20251118_ibis_duck_db_vs_pandas_syntax_comparison/20251118_ibis_duck_db_vs_pandas_syntax_comparison.html</loc>
+    <lastmod>2025-11-25T07:13:38.575Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
+    <lastmod>2025-11-18T07:40:40.136Z</lastmod>
+  </url>
+</urlset>
